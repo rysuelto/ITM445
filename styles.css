@@ -1,0 +1,120 @@
+
+.main-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #3f72af;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-image: image("C:\Users\Test\Documents\School\4th Year 2nd Semester\ITM445\ITM 445 Project\Graphics\Pattern.png");
+}
+
+.website-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+
+/*Navigation Bar Begins */
+ul {
+  font-family: arial;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #dddddd;
+}
+
+li {
+  float: left;
+}
+
+a {
+  color: black;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  background-color: #dddddd;
+  color: black;
+}
+
+li a:hover {
+  background-color: #dbe2ef;
+}
+
+.home {
+  float: right;
+}
+
+.active {
+  background-color: #ccf2f4;
+}
+/*Navigation Bar Ends*/
+
+
+/*mainly homepage*/
+h2 {
+  font-family: Georgia;
+  font-size: 40px
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 30px
+}
+
+.about {
+  background-color: #a4ebf3;
+}
+
+.article-heading {
+  background-color: #c7ffd8;
+}
+
+.latest {
+  width: 300px;
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+}
+
+.home-division {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.latest-article {
+  text-align: center;
+  width: 400px;
+}
+
+.about-text {
+  vertical-align: top;
+  width: 400px;
+}
+
+.video-heading {
+  width: 400px;
+  background-color: #b8b5ff
+}
+
+.latest-video {
+  text-align: center;
+  width: 400px;
+}
+
+.latest {
+  width: 395px;
+}
+/*mainly homepage ends*/
